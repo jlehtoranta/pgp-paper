@@ -25,6 +25,15 @@ This is why I felt the need to create this tool.
 
 ## Usage
 
+      ./pgp_paper.sh -w -i private.key -i message.gpg -t "Secret Message"
+      -n                  Full name
+      -m                  Email address
+      -w                  Write to PDF
+      -r                  Read from a PNG or a Base32 encoded text file
+      -i   [filename]     PGP private key/message filename (GPG [write] or PNG/Base32 [read])
+      -t   [header]       Set a custom header for the PGP private key or message
+      -o   [filename]     PDF filename
+
 ## Requirements
 
 ### Ubuntu/Debian
