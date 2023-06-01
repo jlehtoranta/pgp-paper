@@ -5,6 +5,10 @@ backup string and SHA-256 hash
 * Restore PGP keys and messages by using the QR code or typing the Base32
 encoded backup string
 
+  <picture>
+      <img height=600 src="https://raw.githubusercontent.com/jlehtoranta/pgp-paper/main/screenshot.png">
+  </picture>
+
 ## Motivation
 
 PGP master keys should be stored offline and accessed only when necessary.
